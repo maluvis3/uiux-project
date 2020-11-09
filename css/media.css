@@ -1,0 +1,274 @@
+@media screen and (max-width:1280px){
+    header .gnb li{width:15%;}
+
+    /* main page section css */
+    #slide{height: 500px; display:none;}
+    #slide div{display:none;}
+    #slide_1200px{width:100%; display:block; overflow:hidden; height:400px;}
+
+    .main_Int{background: #1F0901;}
+    .main_Int p{color:#fff;}
+    .main_Int_img{display: none;}
+
+    .main_Int_img2{width:30%; display:block; margin: auto;}
+    .main_Int_img2 img{width:100%;}
+
+    .main_review h1 {padding:44px 0 20px;}
+    .owl-carousel .cnt_Img {width:22%;}
+
+    .menuBoard .menu_1{width:70%; height:auto;}
+    .menuBoard .menu_1 .menu1_Cnt{transform:none;}
+
+    .menuBoard .menu_2{width:70%; height:auto;}
+    .menuBoard .menu_2 .menu2_Cnt{transform:none;}
+
+    .menuBoard .menu_3{width:70%; height:auto;}
+    .menuBoard .menu_3 .menu3_Cnt{transform:none;}
+
+    .menuBoard .menu_4{width:70%; height:auto;}
+    .menuBoard .menu_4 .menu4_Cnt{transform:none;}
+
+    /* introduce page section css */
+    .intro_sub_Cnts{width: 100%;}
+    .intro_sub_txt{width: 100%; padding:11% 2%;}
+
+    /* menu page section css */
+    .new_box img{height:65%;}
+    .new_menu{width:80%;}
+    .day_menu{width:80%;}
+    .day_menu_txt{width:80%;}
+    .night_menu{width:80%;}
+    .night_menu_txt{width:80%;}
+
+     /* veganlife page section css */
+    .sub_vegan{width:80%; margin:9% auto;}
+    .sub_vegan_T .T_box1{width:40%;}
+    .sub_vegan_T .T_box2{padding: 0 0 0 67px; width:60%;}
+    .sub_vegan_T .T_box2 h2{font-size: 28px;}
+    .sub_vegan_T .T_box2 p{font-size: 18px; line-height:31px; padding: 34px 0 0;}
+}
+
+@media screen and (max-width:930px){
+    header .gnb li{width:20%;}
+
+    .common_tit{text-align: center; margin: 0;}
+    .common_tit span{left: 0; font-size: 20px;}
+
+    /* introduce section css */
+    .intro_sub_txt h1{font-size: 30px;}
+    .intro_sub_txt h2{font-size: 18px;}
+    .intro_sub_txt p{font-size: 15px;}
+
+    /* menu page section css */
+    .new_menu{width:95%;}
+    .day_menu{width:100%;}
+    .day_menu_txt{width:95%;}
+    .night_menu{width:100%;}
+    .night_menu_txt{width:95%;}
+    
+    /* 매장위치 스타일 */
+    .box1{display: none;}
+    .box2{width:100%;}
+    .map h1{font-size:27px;}
+
+    /* veganlife page section css */
+    .sub_vegan{width:80%; margin:9% auto;}
+    .sub_vegan_T .T_box1{width:100%; text-align: center;}
+    .sub_vegan_T .T_box1 img{width: 50%;}
+    .sub_vegan_T .T_box2{width:100%; padding: 37px 0; text-align: center;}
+    .sub_vegan_T .T_box2 h2{font-size: 28px;}
+    .sub_vegan_T .T_box2 p{font-size: 18px; line-height:31px; padding: 34px 0 0;}
+   
+    .sub_vegan{width:80%; margin:9% auto;}
+    .sub_vegan_B .B_box1{width:100%; text-align: center;}
+    .sub_vegan_B .B_box1 img{width: 50%;}
+    .sub_vegan_B .B_box2{width:100%; padding: 37px 0; text-align: center;}
+    .sub_vegan_B .B_box2 h2{font-size: 28px;}
+    .sub_vegan_B .B_box2 p{font-size: 18px; line-height:31px; padding: 34px 0 0;}
+
+
+}
+
+@media screen and (max-width:730px){
+    header .gnb{width: 50%; height: 100%; position:fixed; top:0; left:-50%; justify-content:left; font-size: 20px; background: rgba(0,0,0,0.8);}
+    header .gnb ul{display:block;}
+    header .gnb ul span{display:block; float:right; margin:33px; color: #fff; font-size: 30px;}
+
+    header .gnb li{width:100%; text-align: left;}
+    header .gnb li a{color: #fff; font-size:14px;}
+
+    .mobile_header{width:100%; display:flex; justify-content: space-around; align-items: center;}
+    .menuBtn{width:25px; height:25px; float:left; position:relative; background:transparent; display:block; transition:all 0.3s; margin: 0 0 0 8%;}
+    .menuBtn>div{transition:all 0.3s;}
+    .menuBtn>div:nth-child(1){width:100%; height:3px; background:#000; position:absolute; top:20%; transform:translateY(-50%);}
+    .menuBtn>div:nth-child(2){width:100%; height:3px; background:#000; position:absolute; top:50%; transform:translateY(-50%);}
+
+    header .logo h2{width:58%; margin:10% auto;}
+  
+
+    /* main page section css */
+    .main_Int{padding: 23px; font-size:15px;}
+
+    .main_review h1{font-size:40px;}
+    .main_review p.sub{font-size:15px; padding: 0 68px 40px;}
+    .owl-carousel .cnt_Img {display:none;}
+    .owl-carousel .cnt_Txt{font-size: 15px; padding:30px;}
+
+    .main_Menu h1{font-size:40px; padding:100px 0 20px;}
+    .main_Menu p.sub{font-size:15px; padding: 0 68px 40px;}
+
+    .menuBoard .menu_2,
+    .menuBoard .menu_4{display: none;}
+
+    .menuBoard .menu_1{width:100%;}
+    .menuBoard .menu_3{width:100%;}
+
+    .menuBoard .menuImg_L{width:45%; margin: auto;}
+    
+    .menuBoard .menu_1 .menu1_Cnt .menu1_txt,
+    .menuBoard .menu_3 .menu3_Cnt .menu3_txt{width:80%; left:10%; top:55%; background-color:rgba(0,0,0,0.2); color:#fff; text-align:center;}
+
+    .menuBoard .menu_1 .menu1_Cnt .menu1_txt h2,
+    .menuBoard .menu_2 .menu2_Cnt .menu2_txt h2,
+    .menuBoard .menu_3 .menu3_Cnt .menu3_txt h2,
+    .menuBoard .menu_4 .menu4_Cnt .menu4_txt h2{font-size:16px;}
+
+    .menuBoard .menu_1 .menu1_Cnt .menu1_txt p,
+    .menuBoard .menu_2 .menu2_Cnt .menu2_txt p,
+    .menuBoard .menu_3 .menu3_Cnt .menu3_txt p,
+    .menuBoard .menu_4 .menu4_Cnt .menu4_txt p{font-size:14px;}
+
+    .menuBoard .menu_1 .menu1_Cnt .menu1_txt b,
+    .menuBoard .menu_2 .menu2_Cnt .menu2_txt b,
+    .menuBoard .menu_3 .menu3_Cnt .menu3_txt b,
+    .menuBoard .menu_4 .menu4_Cnt .menu4_txt b{font-size:14px;}
+
+    .main_Insta .Insta_Cnt ul.instaCnt_box li{width:48%;}
+
+    .instaCnt_box li:nth-child(5),
+    .instaCnt_box li:nth-child(6),
+    .instaCnt_box li:nth-child(7),
+    .instaCnt_box li:nth-child(8){display:none;}
+
+    .main_Insta h1{font-size:40px; padding:100px 0 20px;}
+    .main_Insta p.sub{font-size:15px; padding: 0 68px 40px;}
+
+    .main_Loca h1{font-size:40px; padding:100px 0 20px;}
+    .main_Loca p.sub{font-size:15px; padding: 0 68px 40px;}
+
+    .main_map_box{width:100%;}
+    .map_box{width:100%; height:100%; box-sizing: border-box; float: left; text-align: center;}
+    .map_box h2{font-size:27px;}
+    .map_box p{font-size:15px;}
+
+    /* introduce section css */
+    .intro_box1 h1{display: none;}
+    .intro_box2 img{width: 30%;}
+    .intro_box2 p{font-size: 15px;}
+
+    /* menu page section css */
+    .new_box{width:100%;}
+    .new_box img{width:50%;}
+    .day_box{width:50%;}
+    .night_box{width:50%;}
+    .new_left_txt{width:260px; height:99px; font-size:16px; left:40%;}
+    .new_right_txt{width:260px; height:99px; font-size:16px; right:40%; bottom:15%;}
+    .new_menu h1{font-size:30px;}
+    .day_menu h1{font-size:25px;}
+    .night_menu h1{font-size:25px;}
+
+    /* 매장정보 페이지 스타일 */
+    .map h1{font-size:25px; width:80%;}
+    .main_map{width:80%;}
+    .map_box{height:100%;}
+    .map_box iframe{height:60%;}
+
+    /* veganlife page section css */
+    .about_vegan h1{font-size:25px;}
+
+    .sub_vegan{height: auto;}
+    .vegan_box{width:100%; height:50%; padding:50px;}
+    .vegan_box h2{font-size:20px;}
+    .vegan_box p{font-size:15px;}
+
+    .about_vegan h1{font-size:20px;}
+    .about_vegan p{font-size:13px;}
+
+}
+
+@media screen and (max-width:500px){
+
+    .main_Int_img2 {width: 50%;}
+
+    .menuBoard .menuImg_L{width:66%;}
+    
+    .main_map_box h2{font-size: 20px;}
+    .main_map_box p{font-size:14px;}
+    .map_img iframe{height:200px;}
+
+    /* menu page section css */
+    .new_left_txt{width:190px; height: 80px; font-size: 13px;}
+    .new_right_txt{width:190px; height: 80px; font-size: 13px;}
+    .day_box{width:50%;}
+    .night_box{width:50%;}
+    .new_box img{width:55%;}
+    .day_menu_txt{font-size: 13px;}
+    .night_menu_txt{font-size: 13px;}
+    .day_menu h1{font-size:25px;}
+    .night_menu h1{font-size:25px;}
+    .new_menu h1{font-size:25px;}
+  
+    /* 매장정보 페이지 스타일 */
+    .map h1{font-size:20px;}
+    .main_map{width:80%; height:300px;}
+    .map_box{padding-left:15px;}
+    .map_box p{font-size:10px;}
+    .map_box iframe{height:50%;}
+
+    /* veganlife page section css */
+    .about_vegan_box{width: 100%;}
+    .about_vegan_box img{width:30%;}
+    .about_vegan p{font-size: 15px;}
+
+    .sub_vegan_T .T_box1 img{width: 100%;}
+    .sub_vegan_T .T_box2 h2{font-size: 21px;}
+    .sub_vegan_T .T_box2 p{font-size: 14px; line-height:22px; padding: 0 0 0;}
+
+    .sub_vegan_B .B_box1 img{width: 100%;}
+    .sub_vegan_B .B_box2 h2{font-size: 21px;}
+    .sub_vegan_B .B_box2 p{font-size: 14px; line-height:22px; padding: 0 0 0;}
+
+    .footer_main p{font-size:13px;}
+    .footer_sub p{font-size: 13px;}
+}
+
+@media screen and (max-width:320px){
+    /* menu page section css */
+    .new_box img{width:53%;}
+    .new_left_txt{width:150px; height:50px; font-size:3px; top:30%; left: 40%;}
+    .new_right_txt{width:150px; height:50px; font-size:3px; bottom:20%; right: 40%;}
+    .day_box{width:100%;}
+    .night_box{width:100%;}
+    .day_menu_txt{font-size: 10px;}
+    .night_menu_txt{font-size: 10px;}
+    .day_menu h1{font-size:20px;}
+    .night_menu h1{font-size:20px;}
+
+    /* veganlife page section css */
+    .about_vegan p{font-size:16px;}
+
+    .vegan_box{height:30%; padding:30px;}
+    .vegan_box h2{font-size:13px;}
+    .vegan_box p{font-size:10px;}
+
+
+  
+
+    .footer_main{padding:22px;}
+    .footer_main p{font-size:11px;}
+
+    .footer_sub p{font-size: 11px;}
+  
+}
+
+
